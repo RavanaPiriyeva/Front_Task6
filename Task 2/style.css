@@ -1,0 +1,232 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/*.img1{
+    height: 100vh;
+    width: 100%;
+  
+}*/
+ .header h1{
+    font-size: 5.5rem;
+    margin-bottom: 0.25rem;
+    position: absolute;
+    top: 30vh;
+    text-align: center;
+    width: 100%;
+
+}
+.header{
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-masthead.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.header h3{
+    margin-bottom: 3rem;
+    font-size: 1.75rem;
+    font-weight: 700;
+    line-height: 1.2;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 40vh;
+    font-family: sans-serif;
+    font-style: italic;
+}
+
+.header a{
+    
+    padding: 1.25rem 2.5rem;
+    color: #fff;
+    background-color: #1D809F;
+    border-color: #1D809F;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    position: absolute;
+    top: 50vh;
+    align-items: center;
+    left:45vw ;
+    font-family: sans-serif;
+}
+.section1{
+    padding-top: 7.5rem;
+    padding-bottom: 7.5rem;
+    align-items:center;
+    text-align: center;
+}
+.section1 h2{
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+    font-family: sans-serif;
+}
+.section1 p{
+    margin-bottom: 3rem;
+    font-size: 1.20rem;
+    font-weight: 300;
+    font-family: sans-serif;
+    
+}
+.section1 .little-a{
+    color:#1D809F;
+}
+.section1 .button{
+    padding: 1.25rem 2.5rem;
+    color: #fff;
+    background-color: #212529;
+    border-color: #212529;
+    text-decoration:none ;
+    font-family: sans-serif;
+    border-radius: 2px;
+}
+.section2{
+    padding-top: 7.5rem;
+    padding-bottom: 7.5rem;
+    background-color: #1D809F;
+    align-items: center;
+}
+.section2 p{
+color:#ecb807 ;
+font-size: 1rem;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+.section2 h2{
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+}
+.section2 .icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   margin: 0 auto;
+   width: 50%;
+   margin-top: 20px;
+}
+.section2 i{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    color: #1D809F;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 30px;
+}
+.top{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-top: 80px;
+}
+.bottom{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.top .left{
+    background-image: url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/portfolio-1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 432px;
+    height: 288.2px;
+    transition:  transform 0.30s;
+
+    
+}
+.top .right{
+    background-image: url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/portfolio-2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 432px;
+    height: 288.2px;
+    transition:  transform 0.30s;
+}
+.bottom .left{
+    background-image: url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/portfolio-3.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 432px;
+    height: 288.2px;
+    
+    transition:  transform 0.30s;
+    
+}
+.bottom .right{
+    background-image: url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/portfolio-4.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 432px;
+    height: 288.2px;
+    transition:  transform 0.30s;
+    
+}
+.left h1{
+    color: white;
+    font-size: 19px;
+   font-family: sans-serif;
+   margin: 120px 0 10px 60px;
+
+}
+.left p{
+    color: white;
+    font-size: 19px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 100;
+    width: 300px;
+    margin: 0 0 0 60px;
+}
+.right h1{
+    color: white;
+    font-size: 19px;
+   font-family: sans-serif;
+   margin: 120px 0 10px 60px;
+
+}
+.right p{
+    color: white;
+    font-size: 19px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 100;
+    width: 300px;
+    margin: 0 0 0 60px;
+}
+ .left:hover{
+    transform: scale(0.8);
+   
+    background-color: #1d819f71;
+    background-image: none;
+}
+.right:hover{
+    transform: scale(0.8);
+
+    background-color: #1d819f71;
+    background-image: none;
+ 
+}
+.section3 h3{
+    font-size: 1rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    color: #ecb807;
+    text-align: center;
+    margin-top: 70px;
+}
+.section3 h2{
+    font-size: 3rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+}

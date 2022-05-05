@@ -1,0 +1,16 @@
+div{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #008000;
+    margin: 100px;
+    animation-name: example;
+    animation-duration: 2s;  
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+}
+@keyframes example{
+   50%{width: 200px;height: 200px;}
+    100%{width: 100px;height: 100px;}
+}
